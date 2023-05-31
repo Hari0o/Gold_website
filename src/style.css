@@ -1,0 +1,108 @@
+.App{
+    background-color: white;
+   
+    height: 100vh;
+}
+
+.navbar{
+            width: 99%;
+            height: 70px;
+            background-color: rgb(230, 198, 22);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position:fixed;
+            top: 0%;
+            
+            /* right: 0%; */
+            z-index: 2;
+}
+
+.left{
+  
+  margin-left: 50px;
+}
+
+.logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.right{
+    
+    display: flex;
+     align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+  .nav {
+    padding-right: 100px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    
+  }
+
+ .section {
+   width: 99%;
+   height: calc(100vh - 50px);
+   background-color:burlywood;
+   border-radius: 10px;
+   position: fixed;
+   top: 70px;
+  
+
+  
+
+
+
+ 
+   }
+
+ 
+
+.home{
+  margin-top: 5%;
+  text-align: center;
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  justify-content: space-between;
+  
+    
+}
+
+.imgContainer{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  gap: 10%;
+  
+}
+.imgSet {
+  width: 400px;
+  height: 350px;
+  border-radius: 100px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:goldenrod;
+
+
+}
+
+.img{
+width: 100%;
+  height: 300px;
+  object-fit: fill;
+  background-color: #fff;
+  z-index: 1
+    
+    
+
+    
+}
